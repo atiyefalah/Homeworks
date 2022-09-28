@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.main-left {
+    display: inline-block;
+    /* width: 380.32px; */
+    width: 46%;
+    background-image: url("https://www.instagram.com/static/images/homepage/phones/home-phones-2x.png/cbc7174b4f05.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 581.15px; */
+    height: 650px;
+    margin-top: 100px;
+    position: relative;
+}
+.image {
+    z-index: 1;
+    /* background-color: aqua; */
+    position: absolute;
+    width: 266px;
+    height: 560px;
+    top: 25px;
+    left: 125px;
+    animation: insta 5s infinite;
+}
+
+.main-right {
+    display: inline-block;
+    width: 53%;
+    position: relative;
+    top: -70px;
+    
+}
+
+.main-right-top {
+    background-color: #fff;
+    padding-bottom: 25px;
+    border:1px solid #DBDBDB;
+    border-radius: 4px;
+}
+
+.main-right-top,
+.main-right-middle,
+.main-right-bottom {
+    margin-right: 80px;
+    margin-left: 30px;
+}
+
+.logo {
+    margin: 40px 40px;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    margin-right: 40px ;
+    margin-left: 40px;
+    width: 80%;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+}
+
+input[type="password"] {
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color: #9D9BBC;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button[type="submit"] {
+    background-color: #B2DFFC;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 128px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+form div:last-child span {
+    padding-left: 130px;
+    color: #00376B;
+}
+
+.main-right-middle {
+    background-color: #fff;
+    margin-top: 15px;
+    border:1px solid #DBDBDB;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-right-middle span {
+    color: #262626;
+}
+
+.main-right-middle a {
+    color: #4FC0FB;
+}
+
+.main-right-bottom {
+    margin-top: 25px;
+}
+
+.main-right-bottom p {
+    text-align: center;
+}
+
+.main-right-bottom div:last-child{
+    margin-top: 25px;
+    padding-left: 40px;
+    padding-bottom: 300px;
+}
+
+.container-2 {
+    width: 70%;
+    margin: auto;
+}
+.footer {
+    margin-top: -300px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.footer-top ul {
+    list-style-type: none;
+}
+
+.footer-top ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.footer-top ul li a {
+    color: #9B9BB9;
+}
+
+.footer-bottom {
+    margin-top: 12px;
+    color: #9B9BB9;
+}
+
+.footer-bottom button {
+    display: inline;
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.footer-bottom button span {
+    font-size: 15px;
+    margin-right: 8px;
+    color: #9B9BB9;
+}
+
+.footer-bottom button i {
+    color: #9B9BB9;
+}
+
+.footer-bottom span {
+    margin-left: 16px;
+}
+
+@keyframes insta {
+    0% {
+        background-image: url("../image/mobile.png");
+        background-size: cover;
+        background-position: center center;
+    }
+    /* 33% {
+        background-image: url("../image/mobile2.png");
+        background-size: cover;
+        background-position: center center;
+    }
+    66% {
+        background-image: url("../image/mobile3.png");
+        background-size: cover;
+        background-position: center center;
+    } */
+    100% {
+        background-image: url("../image/mobile4.png");
+        background-size: cover;
+        background-position: center center;
+    }
+}

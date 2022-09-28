@@ -1,0 +1,35 @@
+body{
+    color: #555;
+}
+#home-area{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 600px;
+}
+#home-area .container{
+    padding-top: 150px;
+}
+#home-area .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0,0,0,0.5);
+}
+#home-area .card-form{
+    opacity: 0.7;
+    border-left: 3px solid red;
+}
+#home-area button{
+    margin-left: 100px;
+}
+#blog-area{
+    background-image: url(../images/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 600px;
+}

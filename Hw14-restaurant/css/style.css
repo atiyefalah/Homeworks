@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    color:#555;
+}
+.container{
+    width: 60%;
+}
+.navbar-brand,#home-area h1,#menu-area h3,#menu-area h5,#about-area h1,#contactus-area h3,#customer h3,#footer h5{
+    font-family: 'Lobster', cursive;
+}
+#home-area{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 600px;
+}
+nav{
+    color: #fff;
+}
+#home-area h1{
+    margin-top: 150px;
+}
+#menu-area a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(61, 55, 55);
+    color: #fff;
+    padding: 5px;
+}
+#menu-area .mar-auto{
+    margin-left: 350px;
+}
+#about-area{
+    background-image: url(../images/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 350px;
+}
+#customer .mar-img{
+    margin-left: 130px;
+}
+#pagination{
+    margin-left: 650px;
+}
